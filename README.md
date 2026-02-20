@@ -1,22 +1,22 @@
-CV Portfolio Website
+# CV Portfolio Website
 
 A modern, responsive personal portfolio website built using ASP.NET Core MVC. This project showcases professional skills, academic projects, work experience, and education in a clean, interactive interface.
 
-📌 Project Overview
+📌 **Project Overview**
 
 This application serves as a digital resume and portfolio for Musa Janda.
 
 It is designed with maintainability and scalability in mind, using the ViewModel pattern to pass structured data from the controller to dynamic Razor views. This ensures clean separation of concerns and simplified content management.
 
-🛠 Tech Stack
+🛠**Tech Stack**
 
-Backend
+**Backend**
 
 ASP.NET Core 9.0 (MVC Pattern)
 
 C#
 
-Frontend
+**Frontend**
 
 Razor Views
 
@@ -30,7 +30,7 @@ Bootstrap 5 (Responsive Design)
 
 Bootstrap Icons
 
-✨ Features
+✨ **Features**
 
 Dynamic Portfolio Rendering
 Centralized data management within the HomeController using ViewModels.
@@ -67,14 +67,14 @@ Custom CSS optimized for high readability and a professional aesthetic.
 Downloadable CV
 Integrated PDF download option for recruiters.
 
-🚀 Getting Started
+🚀**Getting Started**
 Prerequisites
 
 .NET SDK 8.0 or 9.0
 
 Visual Studio 2022 or VS Code
 
-Installation
+**Installation**
 
 Clone the repository
 
@@ -95,7 +95,7 @@ dotnet run
 Open your browser and navigate to:
 
 https://localhost:5001
-🎨 Customization
+🎨 **Customization**
 
 To personalize the portfolio:
 
@@ -107,7 +107,7 @@ Replace the CV file:
 
 Update portfolio content inside the HomeController and corresponding ViewModels.
 
-👤 Author
+👤 **Author**
 
 Musa Janda
 Final-Year IT Student at IIE Emeris
