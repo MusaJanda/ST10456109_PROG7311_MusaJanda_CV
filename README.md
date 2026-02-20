@@ -1,69 +1,117 @@
 CV Portfolio Website
+
 A modern, responsive personal portfolio website built using ASP.NET Core MVC. This project showcases professional skills, academic projects, work experience, and education in a clean, interactive interface.
 
-Project Overview
-This application serves as a digital resume and portfolio for Musa Janda. It is designed to be highly maintainable by using a ViewModel pattern to pass data from the controller to a dynamic Razor view.
+📌 Project Overview
 
-Tech Stack
-Backend: ASP.NET Core 9.0 (MVC Pattern)
+This application serves as a digital resume and portfolio for Musa Janda.
 
-Frontend: Razor Pages, HTML5, CSS3 (Custom Styling)
+It is designed with maintainability and scalability in mind, using the ViewModel pattern to pass structured data from the controller to dynamic Razor views. This ensures clean separation of concerns and simplified content management.
 
-Framework: Bootstrap 5 (Responsive Design)
+🛠 Tech Stack
 
-Icons: Bootstrap Icons
+Backend
 
-Language: C#
+ASP.NET Core 9.0 (MVC Pattern)
 
+C#
 
-Features
-Dynamic Portfolio Rendering: Centralized data management in the HomeController.
+Frontend
 
-Project Showcase: Display of full-stack projects with GitHub links and live demo buttons.
+Razor Views
 
-Skill Categorization: Badges grouped by Languages, Frameworks, Tools, and Soft Skills.
+HTML5
 
-Interactive UI: Hover effects on cards, smooth transitions, and a mobile-friendly navbar.
+CSS3 (Custom Styling)
 
-Dark Mode Support: Custom CSS optimized for high-readability and professional aesthetic.
+Framework & UI
 
-Downloadable CV: Integrated link for recruiters to download a PDF version of the resume.
+Bootstrap 5 (Responsive Design)
 
-Getting Started
+Bootstrap Icons
+
+✨ Features
+
+Dynamic Portfolio Rendering
+Centralized data management within the HomeController using ViewModels.
+
+Project Showcase
+Displays full-stack projects with:
+
+GitHub repository links
+
+Live demo buttons (where available)
+
+Skill Categorization
+Skills grouped into:
+
+Programming Languages
+
+Frameworks
+
+Tools
+
+Soft Skills
+
+Interactive UI
+
+Hover effects on project cards
+
+Smooth transitions
+
+Mobile-friendly responsive navigation
+
+Dark Mode Support
+Custom CSS optimized for high readability and a professional aesthetic.
+
+Downloadable CV
+Integrated PDF download option for recruiters.
+
+🚀 Getting Started
 Prerequisites
+
 .NET SDK 8.0 or 9.0
 
 Visual Studio 2022 or VS Code
 
 Installation
-Clone the repository:
 
-Bash
+Clone the repository
+
 git clone https://github.com/MusaJanda/ST10456109_PROG7311_MusaJanda_CV.git
-Navigate to the project folder:
 
-Bash
+Navigate to the project folder
+
 cd CVPortfolio
-Restore dependencies:
 
-Bash
+Restore dependencies
+
 dotnet restore
-Run the application:
 
-Bash
+Run the application
+
 dotnet run
-Open your browser and navigate to https://localhost:5001.
 
-Profile & Assets
-To customize the portfolio:
+Open your browser and navigate to:
 
-Replace the profile image in /wwwroot/Images/profile.jpg.
+https://localhost:5001
+🎨 Customization
 
-Place your CV in /wwwroot/Files/MusaJanda_CV.pdf.
+To personalize the portfolio:
 
-Author
+Replace the profile image:
+/wwwroot/Images/profile.jpg
+
+Replace the CV file:
+/wwwroot/Files/MusaJanda_CV.pdf
+
+Update portfolio content inside the HomeController and corresponding ViewModels.
+
+👤 Author
+
 Musa Janda
+Final-Year IT Student at IIE Emeris
 
-Final-Year IT Student at IIE Emeris.
+LinkedIn
 
-LinkedIn | GitHub
+GitHub
