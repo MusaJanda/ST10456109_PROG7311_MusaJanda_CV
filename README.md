@@ -68,7 +68,8 @@ Downloadable CV
 Integrated PDF download option for recruiters.
 
 🚀**Getting Started**
-Prerequisites
+
+**Prerequisites**
 
 .NET SDK 8.0 or 9.0
 
@@ -95,6 +96,7 @@ dotnet run
 Open your browser and navigate to:
 
 https://localhost:5001
+
 🎨 **Customization**
 
 To personalize the portfolio:
