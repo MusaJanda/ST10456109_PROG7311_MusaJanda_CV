@@ -1,0 +1,174 @@
+﻿@using CVPortfolio.Models.ViewModel
+@model PortfolioViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<section class="hero-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold">@Model.Profile?.FullName</h1>
+                <p class="lead text-primary mb-3">@Model.Profile?.Title</p>
+                <p class="mb-4">@Model.Profile?.AboutMe</p>
+                <div class="social-links mb-4">
+                    <a href="@Model.Profile?.LinkedInUrl" target="_blank" class="btn btn-outline-primary me-2">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="@Model.Profile?.GitHubUrl" target="_blank" class="btn btn-outline-dark me-2">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="@Model.Profile?.DownloadableCV" class="btn btn-primary" download>
+                        <i class="bi bi-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="@Model.Profile?.ProfilePhoto" alt="@Model.Profile?.ProfilePhoto"
+                     class="rounded-circle img-fluid" style="max-width: 250px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row">
+            @foreach (var skillGroup in Model.Skills ?? new List<Skill>())
+            {
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">@skillGroup.Category</h5>
+                            <div class="skills-tags">
+                                @foreach (var skill in skillGroup.Items)
+                                {
+                                    <span class="badge bg-secondary me-1 mb-2 p-2">@skill</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row">
+            @foreach (var project in Model.Projects ?? new List<Project>())
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        @if (!string.IsNullOrEmpty(project.ImageUrl))
+                        {
+                            <img src="@project.ImageUrl" class="card-img-top" alt="@project.Name">
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@project.Name</h5>
+                            <p class="card-text">@project.Description</p>
+                            <p class="text-muted small">
+                                <strong>Tech Stack:</strong> @project.TechStack
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="@project.GitHubUrl" target="_blank" class="btn btn-sm btn-outline-dark me-2">
+                                <i class="bi bi-github"></i> Code
+                            </a>
+                            @if (!string.IsNullOrEmpty(project.LiveUrl))
+                            {
+                                <a href="@project.LiveUrl" target="_blank" class="btn btn-sm btn-outline-primary">
+                                   
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Education</h2>
+        @foreach (var edu in Model.Education ?? new List<Education>())
+        {
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title">@edu.Degree</h4>
+                            <h5 class="text-primary">@edu.Institution</h5>
+                            <p class="text-muted">Expected Graduation: @edu.ExpectedGraduation</p>
+                            @if (!string.IsNullOrEmpty(edu.Modules))
+                            {
+                                <p><strong>Key Modules:</strong> @edu.Modules</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<!-- Experience Section (Bonus) -->
+@if (Model.Experiences?.Any() == true)
+{
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Experience</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    @foreach (var exp in Model.Experiences)
+                    {
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body">
+                                <h4 class="card-title">@exp.Title</h4>
+                                <h5 class="text-primary">@exp.Company</h5>
+                                <p class="text-muted">@exp.Period</p>
+                                <p class="card-text">@exp.Description</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Get In Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="mb-4">
+                            <i class="bi bi-envelope-fill display-4 text-primary"></i>
+                            <h4 class="mt-3">Email</h4>
+                            <p><a href="mailto:@Model.Profile?.Email" class="text-decoration-none">@Model.Profile?.Email</a></p>
+                        </div>
+                        <div class="social-links">
+                            <a href="@Model.Profile?.LinkedInUrl" target="_blank" class="btn btn-outline-primary me-2">
+                                <i class="bi bi-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="@Model.Profile?.GitHubUrl" target="_blank" class="btn btn-outline-dark me-2">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

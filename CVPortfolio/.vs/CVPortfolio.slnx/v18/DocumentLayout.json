@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\models\\viewmodel\\portfolioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\models\\viewmodel\\portfolioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\models\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\models\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|c:\\users\\lab_services_student\\source\\repos\\cvportfolio\\cvportfolio\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ACB6465-6378-3416-C1AF-1684D0FDD07B}|CVPortfolio\\CVPortfolio.csproj|solutionrelative:cvportfolio\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Program.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Program.cs",
+              "RelativeToolTip": "CVPortfolio\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:21:48.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CVPortfolio\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CVPortfolio\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-18T15:21:01.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CVPortfolio\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CVPortfolio\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAmwLYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-18T15:20:44.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\ViewModel\\PortfolioViewModel.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Models\\ViewModel\\PortfolioViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\ViewModel\\PortfolioViewModel.cs",
+              "RelativeToolTip": "CVPortfolio\\Models\\ViewModel\\PortfolioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:18:28.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CVPortfolio\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CVPortfolio\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T15:15:54.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CVPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CVPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T15:14:46.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CVPortfolio\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:04:15.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Experience.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Experience.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Models\\Experience.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Experience.cs",
+              "RelativeToolTip": "CVPortfolio\\Models\\Experience.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:03:08.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Education.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Education.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Models\\Education.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Education.cs",
+              "RelativeToolTip": "CVPortfolio\\Models\\Education.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:02:34.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Profile.cs",
+              "RelativeToolTip": "CVPortfolio\\Models\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T14:49:35.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Project.cs",
+              "RelativeToolTip": "CVPortfolio\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T15:00:36.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CVPortfolio\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CVPortfolio\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-20T10:09:43.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\appsettings.json",
+              "RelativeDocumentMoniker": "CVPortfolio\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\appsettings.json",
+              "RelativeToolTip": "CVPortfolio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-20T10:10:22.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "CVPortfolio\\Models\\Skill.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\CVPortfolio\\CVPortfolio\\Models\\Skill.cs",
+              "RelativeToolTip": "CVPortfolio\\Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T14:59:51.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
